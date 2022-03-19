@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+header{
+    padding: 20px 2%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+main{
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: aliceblue;
+    padding: 0 2%;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.pokemon-box{
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon{
+    border-radius: 20px;
+    width: 29%;
+    margin: 20px 2%;
+    background-color: rgb(230,230,230);
+}
+
+.pokemon img{
+    width: 100%;
+}
+
+.pokemon p{
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 768px){
+    .pokemon{
+        width: 100%;
+        text-align: center;
+    }
+
+    .pokemon{
+        max-width: 300px;
+    }
+}
